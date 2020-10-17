@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Header from './components/Header/header';
+import NavigationMenu from './components/NavigationMenu/navigationMenu';
 
 import './App.scss';
 
@@ -7,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>The App.js screen</h1>
+      <NavigationMenu />
     </div>
   );
 }

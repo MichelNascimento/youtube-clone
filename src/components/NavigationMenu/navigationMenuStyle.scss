@@ -1,0 +1,24 @@
+@import "../../utils/variables";
+
+aside {
+    width: 230px;
+    height: 100vh;
+    background-color: $dark-theme-gray-background-color;
+    display: flex;
+    flex-direction: column;
+
+    .main-sections-item {
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+
+        span {
+            margin-left: 15%;
+        }
+
+        &:hover {
+            background-color: lighten($dark-theme-gray-background-color, 10%);
+            cursor: pointer;
+        }
+    }
+}

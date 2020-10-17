@@ -1,12 +1,13 @@
 @import '../../utils/variables';
 
 header {
-    background-color: $dark-theme-header-background-color;
+    background-color: $dark-theme-gray-background-color;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 4rem;
     width: 100%;
+    float: right;
 
     .container-search {
         margin: 0px 0px 0px 100px;
