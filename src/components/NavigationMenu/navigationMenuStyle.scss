@@ -1,5 +1,21 @@
 @import "../../utils/variables";
 
+@mixin itemStyle {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-left: 15%;
+        font-size: 14px;
+    }
+
+    &:hover {
+        background-color: lighten($dark-theme-gray-background-color, 10%);
+        cursor: pointer;
+    }
+}
+
 aside {
     width: 230px;
     height: 100vh;
@@ -7,18 +23,19 @@ aside {
     display: flex;
     flex-direction: column;
 
+    .main-sections {
+        padding: 10px 2px;
+    }
+
     .main-sections-item {
-        padding: 10px 30px;
-        display: flex;
-        align-items: center;
+        @include itemStyle()
+    }
 
-        span {
-            margin-left: 15%;
-        }
-
-        &:hover {
-            background-color: lighten($dark-theme-gray-background-color, 10%);
-            cursor: pointer;
-        }
+    .related-sections {
+        padding: 10px 2px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .related-sections-item {
+        @include itemStyle()
     }
 }
