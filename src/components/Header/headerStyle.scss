@@ -26,6 +26,7 @@ header {
             width: 70%;
             padding: 0px 5px;
             outline: none;
+            font-size: 16px;
         }
 
         button {
@@ -51,6 +52,18 @@ header {
         .container-options-item {
             color: $dark-theme-text-color;
             cursor: pointer;
+        }
+    }
+
+    .youtube-logo {
+        display: flex;
+        align-items: center;
+        margin-left: 75px;
+        cursor: pointer;
+
+        span {
+            font-weight: 500;
+            margin-left: 2px;
         }
     }
 }

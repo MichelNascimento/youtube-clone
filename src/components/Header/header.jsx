@@ -4,13 +4,19 @@ import React from 'react'
 import { RiVideoAddLine } from 'react-icons/ri'
 import { CgMenuGridR, CgProfile } from 'react-icons/cg'
 import { IoIosNotificationsOutline } from 'react-icons/io'
-import {  AiOutlineSearch} from 'react-icons/ai'
+import { AiOutlineSearch } from 'react-icons/ai'
+
+import logo from '../../assets/youtube-logo.png'
 
 import './headerStyle.scss'
 
 const Header = () => {
     return (
         <header>
+            <div className="youtube-logo">
+                <img src={logo} height={30} width={30} alt="YouTube Logo" />
+                <span>YouTube</span>
+            </div>
             <div className="container-search">
                 <input type="text" id="txtSearch" placeholder="Pesquisar" />
                 <button id="btnSearch">
