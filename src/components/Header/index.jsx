@@ -8,7 +8,7 @@ import { AiOutlineSearch } from 'react-icons/ai'
 
 import logo from '../../assets/youtube-logo.png'
 
-import './headerStyle.scss'
+import './styles.scss'
 
 const Header = () => {
     return (

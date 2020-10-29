@@ -5,7 +5,7 @@ import { RiVideoLine } from 'react-icons/ri'
 import { MdVideoLibrary, MdHistory, MdOndemandVideo } from 'react-icons/md'
 import { FiClock } from 'react-icons/fi'
 
-import './navigationMenuStyle.scss'
+import './styles.scss'
 
 const NavigationMenu = () => {
     return (

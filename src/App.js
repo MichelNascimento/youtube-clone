@@ -1,15 +1,13 @@
 import React from 'react';
 
-import Header from './components/Header/header';
-import NavigationMenu from './components/NavigationMenu/navigationMenu';
-
 import './App.scss';
+
+import Main from './Pages/Main';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <NavigationMenu />
+      <Main />
     </div>
   );
 }
